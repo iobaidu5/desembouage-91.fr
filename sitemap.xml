@@ -1,10 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://localhost:4000/abbeville-la-riviere</loc>
+</url>
+<url>
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/angerville</loc>
+</url>
+<url>
+<loc>http://localhost:4000/arpajon</loc>
+</url>
+<url>
+<loc>http://localhost:4000/arrancourt</loc>
+</url>
+<url>
+<loc>http://localhost:4000/authon-la-plaine</loc>
+</url>
+<url>
+<loc>http://localhost:4000/auvernaux</loc>
+</url>
+<url>
+<loc>http://localhost:4000/auvers-saint-georges</loc>
+</url>
+<url>
 <loc>http://localhost:4000/avis</loc>
+</url>
+<url>
+<loc>http://localhost:4000/avrainville</loc>
 </url>
 <url>
 <loc>http://localhost:4000/bhinternet</loc>
