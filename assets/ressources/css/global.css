@@ -9227,11 +9227,11 @@ header #carousel-header {
 }
 
 section.one {
-  padding: 0 10px;
+  padding: 2%;
 }
 
 section.two {
-  padding: 0 10px;
+  padding: 2%;
 }
 
 .carousel-caption {
@@ -9576,6 +9576,14 @@ tr:hover {
   box-shadow: 0 0 12px 3px #b0b2ab
 }
 
+@media (max-width:990px) {
+
+  .to-100-990{
+    width: 100% !important;
+    margin: 10px 0 !important;
+  }
+}
+
 @media (max-width:768px) {
   .flt {
     float: none;
@@ -9585,11 +9593,6 @@ tr:hover {
 
   section.one h1 {
     text-align: left
-  }
-
-  .to-100-990{
-    width: 100% !important;
-    margin: 10px 0 !important;
   }
 
   section.one {
