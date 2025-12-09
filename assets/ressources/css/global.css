@@ -649,8 +649,15 @@ ol,
 ul {
   margin-top: 0;
   margin-bottom: 10px;
-  margin-left: 20px !important;
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  padding-inline-start: 40px;
+  unicode-bidi: isolate;
 }
+
+
 
 
 ul li{
