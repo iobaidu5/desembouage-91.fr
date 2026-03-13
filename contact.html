@@ -13,6 +13,7 @@
   <link rel="stylesheet" type="text/css" href="./assets/ressources/css/global.css">
   <link rel="stylesheet" type="text/css" href="./assets/ressources/css/style.css">
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -165,13 +166,13 @@
             <input type="hidden" name="website" value="418" />
             <input type="hidden" name="lang" value="fr" />
             <input type="hidden" name="firstName" value="" />
-            <input type="hidden" name="key" value="6LdxKvgrAAAAANcqawtMAQz6LzHJ9BCc94ZJ6umJ" />
+            <input type="hidden" name="key" value="6LcHPygsAAAAAEICLSXeSWe5cCLF3ZHJHE8shSZi" />
             <div class="form-group has-feedback ">
-              <label for="form_firstname">Prénom</label> <input type="text" name="prenom" id="form_prenom" value=""
+              <label for="lastname">Prénom</label> <input type="text" name="lastname" id="lastname" value=""
                 class="form-control" placeholder="Prénom" autofocus="autofocus" required="required">
             </div>
             <div class="form-group has-feedback ">
-              <label for="form_lastname">NOM</label> <input type="text" name="nom" id="form_nom" value=""
+              <label for="name">NOM</label> <input type="text" name="name" id="name" value=""
                 class="form-control" placeholder="NOM" required="required">
             </div>
 
@@ -180,7 +181,7 @@
                 class="form-control" placeholder="Pseudonyme">
             </div>
             <div class="form-group has-feedback ">
-              <label for="form_email">E-mail</label> <input type="text" name="email" id="form_email" value=""
+              <label for="form_email">E-mail</label> <input type="email" name="email" id="form_email" value=""
                 class="form-control" placeholder="text@exemple.fr" required="required">
             </div>
             <div class="form-group has-feedback ">
@@ -207,7 +208,7 @@
 
 
           <div class="form-group" style="display: flex; justify-content: center;">
-            <div class="g-recaptcha" data-sitekey="6LdxKvgrAAAAAPVnmi_P2dPXoD_gu00-V_YfH_KI">
+            <div class="g-recaptcha" data-sitekey="6LcHPygsAAAAAGm8A3Bm3SGBQ-bA2CBdoHZPx8HM">
             </div>
             <br />
             <div id="contact-form-response" class="text-white" style="color: #333 !important; font-size: 1rem;">
@@ -302,18 +303,14 @@
     </div>
   </div>
 </footer>
-<script type="text/javascript" async=""
-  src="https://www.googletagmanager.com/gtag/js?id=G-PSY5F6DES1&amp;cx=c&amp;_slc=1"></script>
-<script type="text/javascript" async="" charset="utf-8"
-  src="https://www.gstatic.com/recaptcha/releases/-PgDGgfmUF0ySmnjMTJjzqak/recaptcha__en.js" crossorigin="anonymous"
-  integrity="sha384-H0mK+IQhANprBblOQEFWq1PDr55lbDWwZEd/GMAA78NROK5AjZuV3DFPdQEXCj2o"></script>
-<script type="text/javascript" async="" charset="utf-8"
-  src="https://www.gstatic.com/recaptcha/releases/-PgDGgfmUF0ySmnjMTJjzqak/recaptcha__en.js" crossorigin="anonymous"
-  integrity="sha384-H0mK+IQhANprBblOQEFWq1PDr55lbDWwZEd/GMAA78NROK5AjZuV3DFPdQEXCj2o"></script>
+
+
+<script src="./assets/js/formSubmit.js"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 <script async="" src="https://www.google-analytics.com/analytics.js"></script>
 <script src="./assets/ressources/js/jquery-1.11.0.min.js"></script>
 <script src="./assets/ressources/js/bootstrap.min.js"></script>
-<script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script>
 
 
 
